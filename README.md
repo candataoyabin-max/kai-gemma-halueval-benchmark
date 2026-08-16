@@ -23,3 +23,9 @@
 
 ```bash
 pip install requests datasets scikit-learn
+
+---
+
+## 🔗 Related Links / 関連リンク
+* **KAI Patent Layer 公式サイト**: [https://phiai.net](https://phiai.net)
+* **特許情報**: 特許第7867310号
