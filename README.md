@@ -1,7 +1,6 @@
 # Gemma 3 4B × KAI Patent Layer ハルシネーション制御ベンチマーク
 
-標準的な学術ベンチマーク「HaluEval（QAタスク）」を用い、ローカルモデル「Gemma 3 4B」に **KAI Patent Layer（特許第7867310号）** をドッキングさせた精度検証コードです。
-
+標準的な学術ベンチマーク「HaluEval（QAタスク）」を用い、ローカルモデル「Gemma 3 4B」に **KAI Patent Layer（特許第7867310号）** をドッキングさせた精度検証コードです。  
 小型モデル特有の「全件を危険・誤回答と判定してしまう過剰検知（オオカミ少年化）」を解消し、識別・制御レイヤーとしての有効性を実証しています。
 
 ---
@@ -23,9 +22,6 @@
 
 ```bash
 pip install requests datasets scikit-learn
-
----
-
-## 🔗 Related Links / 関連リンク
-KAI Patent Layer 公式サイト: [https://phiai.net](https://phiai.net)
+🔗 Related Links / 関連リンク
+KAI Patent Layer 公式サイト: https://phiai.net
 特許情報: 特許第7867310号
